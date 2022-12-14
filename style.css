@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: blue;
+     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orm {
+    width: 360px;
+    background: #fff;
+    margin: auto;
+    padding: 30px 10px 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    padding-top: 10px;
+}
+
+input {
+    display: block;
+    padding-bottom: 10px;
+    width: 338px;
+}
+.sign {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.free {
+    text-align: center;
+}
+/* 
+.one {
+    text-align: center;
+}
+
+.two {
+    text-align: center;
+}
+
+.three {
+    text-align: center;
+}
+
+.four {
+    text-align: center;
+}
+
+.five {
+    text-align: center;
+} */
+
+button {
+    background-color: crimson;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 28px;
+    border: 0;
+    font-weight: 500px;
+    transition: 500ms ease-in-out;
+    cursor:pointer ;
+}
+
+button:hover {
+    background-color: aqua;
+    transform: scale(0.99);
+}
+
+p {
+    text-align: center;
+}
+
+span {
+    color: crimson;
+    cursor: pointer;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+.rii {
+    color: aqua;
+    transition: 500ms;
+}
